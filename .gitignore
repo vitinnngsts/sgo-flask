@@ -1,0 +1,13 @@
+# Ambiente virtual
+../.venv/
+
+# Banco de dados
+*.db
+
+# Cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/

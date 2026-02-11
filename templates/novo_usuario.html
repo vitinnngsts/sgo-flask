@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Novo Usuário{% endblock %}
+
+{% block content %}
+<h2>Novo Usuário</h2>
+
+<form method="post">
+    <input type="text" name="nome" placeholder="Nome" required><br><br>
+    <input type="email" name="email" placeholder="Email" required><br><br>
+    <input type="password" name="senha" placeholder="Senha" required><br><br>
+
+    <select name="role">
+        <option value="funcionario">Funcionário</option>
+        <option value="admin">Admin</option>
+    </select><br><br>
+
+    <button type="submit">Criar</button>
+</form>
+{% endblock %}
